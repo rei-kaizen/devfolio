@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Download, Code, Database, Cpu } from "lucide-react"
+import { Download, Code, Database, Cpu, LayoutTemplate, Smartphone, Network } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function AboutSection() {
@@ -71,9 +71,14 @@ export default function AboutSection() {
             <div className="grid gap-6">
               {[
                 {
-                  icon: Code,
-                  title: "System Architecture",
-                  description: "Designing scalable and efficient system architectures",
+                  icon: LayoutTemplate,
+                  title: "Frontend Development",
+                  description: "Crafting responsive and interactive web interfaces",
+                },
+                {
+                  icon: Network,
+                  title: "Computer Networks",
+                  description: "Designing and simulating secure networks using Cisco Packet Tracer",
                 },
                 {
                   icon: Database,
@@ -84,6 +89,11 @@ export default function AboutSection() {
                   icon: Cpu,
                   title: "IoT & Embedded",
                   description: "Creating smart solutions with Arduino and Raspberry Pi",
+                },
+                {
+                  icon: Smartphone,
+                  title: "App Development",
+                  description: "Building cross-platform mobile apps",
                 },
               ].map((item, index) => (
                 <motion.div

@@ -6,50 +6,50 @@ const techCategories = [
   {
     title: "Languages",
     items: [
-      { name: "Python", color: "from-yellow-400 to-blue-500" },
-      { name: "Arduino C", color: "from-blue-500 to-purple-500" },
-      { name: "JavaScript", color: "from-yellow-400 to-yellow-600" },
-      { name: "Java", color: "from-red-500 to-orange-500" },
-      { name: "PHP", color: "from-gray-400 to-gray-600" },
-      { name: "TypeScript", color: "from-blue-500 to-blue-700" },
+      { name: "Python", color: "from-yellow-300 to-cyan-400" },           // radiant + cool
+      { name: "Arduino C", color: "from-cyan-300 to-indigo-500" },        // electric & circuit-like
+      { name: "JavaScript", color: "from-amber-400 to-rose-500" },        // bright cosmic heat
+      { name: "Java", color: "from-orange-500 to-red-600" },              // blazing core
+      { name: "PHP", color: "from-slate-400 to-indigo-600" },             // lunar gray-purple
+      { name: "TypeScript", color: "from-sky-400 to-indigo-500" },        // structured & electric
     ],
   },
   {
     title: "Frameworks",
     items: [
-      { name: "Next.js", color: "from-green-400 to-green-600" },
-      { name: "Flask", color: "from-gray-400 to-gray-600" },
-      { name: "React.js", color: "from-black to-gray-800" },
-      { name: "Node.js", color: "from-green-400 to-green-600" },
-      { name: "Express", color: "from-gray-400 to-gray-600" },
+      { name: "Next.js", color: "from-emerald-400 to-indigo-500" },       // modern + space glow
+      { name: "Flask", color: "from-slate-500 to-indigo-700" },           // stealthy cosmic mist
+      { name: "React.js", color: "from-indigo-500 to-blue-600" },         // magnetic waves
+      { name: "Node.js", color: "from-lime-400 to-emerald-500" },         // vibrant tech beam
+      { name: "Express", color: "from-zinc-500 to-slate-700" },           // cosmic dust
     ],
   },
   {
     title: "Database",
     items: [
-      { name: "PostgreSQL", color: "from-blue-500 to-blue-700" },
-      { name: "MongoDB", color: "from-green-500 to-green-700" },
-      { name: "MySQL", color: "from-orange-500 to-yellow-500" },
+      { name: "PostgreSQL", color: "from-blue-400 to-indigo-600" },       // data deep sea
+      { name: "MongoDB", color: "from-green-400 to-teal-500" },           // natural nebula
+      { name: "MySQL", color: "from-orange-400 to-yellow-500" },          // classic starlight
     ],
   },
   {
     title: "Tools",
     items: [
-      { name: "Git", color: "from-red-500 to-orange-500" },
-      { name: "GitHub", color: "from-gray-700 to-black" },
-      { name: "VS Code", color: "from-blue-500 to-blue-700" },
-      { name: "Pycharm", color: "from-blue-400 to-blue-600" },
-      { name: "Android Studio", color: "from-green-500 to-green-700" },
-      { name: "Capacitor/Cordova", color: "from-purple-500 to-pink-500" },
+      { name: "Git", color: "from-rose-500 to-orange-500" },              // solar flare
+      { name: "GitHub", color: "from-gray-700 to-purple-900" },            // deep space void
+      { name: "VS Code", color: "from-indigo-400 to-blue-500" },          // code nebula
+      { name: "Pycharm", color: "from-teal-300 to-cyan-500" },            // sharp and smart
+      { name: "Android Studio", color: "from-emerald-400 to-green-600" }, // vibrant core tech
+      { name: "Capacitor/Cordova", color: "from-purple-500 to-fuchsia-600" }, // plasma beam
     ],
   },
   {
     title: "Others",
     items: [
-      { name: "Firebase", color: "from-yellow-400 to-orange-500" },
-      { name: "Supabase", color: "from-green-400 to-blue-500" },
-      { name: "Arduino", color: "from-teal-400 to-blue-500" },
-      { name: "Figma", color: "from-red-500 to-pink-500" },
+      { name: "Firebase", color: "from-amber-300 to-orange-500" },        // ignition burst
+      { name: "Supabase", color: "from-emerald-400 to-cyan-500" },        // sci-fi platform
+      { name: "Arduino", color: "from-teal-400 to-blue-500" },            // electric ripple
+      { name: "Figma", color: "from-pink-500 to-fuchsia-600" },           // UI nebula
     ],
   },
 ]
