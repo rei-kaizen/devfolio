@@ -145,21 +145,35 @@ export default function ProjectsSection() {
 
                   {/* Action Buttons */}
                   <div className="flex space-x-3">
-                    <Button
-                      size="sm"
-                      variant="outline"
-                      className="flex-1 border-cyan-500/50 text-cyan-400 hover:bg-cyan-500 hover:text-white transition-all duration-300 bg-transparent"
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1"
                     >
-                      <Github className="mr-2 h-4 w-4" />
-                      Code
-                    </Button>
-                    <Button
-                      size="sm"
-                      className={`flex-1 bg-gradient-to-r ${project.gradient} hover:opacity-90 text-white transition-all duration-300`}
+                      <Button
+                        size="sm"
+                        variant="outline"
+                        className="w-full border-cyan-500/50 text-cyan-400 hover:bg-cyan-500 hover:text-white transition-all duration-300 bg-transparent"
+                      >
+                        <Github className="mr-2 h-4 w-4" />
+                        Code
+                      </Button>
+                    </a>
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1"
                     >
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      Demo
-                    </Button>
+                      <Button
+                        size="sm"
+                        className={`w-full bg-gradient-to-r ${project.gradient} hover:opacity-90 text-white transition-all duration-300`}
+                      >
+                        <ExternalLink className="mr-2 h-4 w-4" />
+                        Demo
+                      </Button>
+                    </a>
                   </div>
                 </div>
               </div>
