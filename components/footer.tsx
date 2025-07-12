@@ -33,10 +33,10 @@ export default function Footer() {
             className="flex justify-center space-x-6"
           >
             {[
-              { icon: Github, href: "#", label: "GitHub" },
-              { icon: Linkedin, href: "#", label: "LinkedIn" },
+              { icon: Github, href: "https://github.com/rei-kaizen", label: "GitHub" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/denierosebon/", label: "LinkedIn" },
               { icon: Mail, href: "mailto:denie.bon@email.com", label: "Email" },
-              { icon: FileText, href: "#", label: "Resume" },
+              { icon: FileText, href: "https://drive.google.com/drive/folders/1ye5mwEvu2YYTGkYIdujB_3MDzwFzvjVe?usp=sharing", label: "Resume" },
             ].map((social) => (
               <motion.a
                 key={social.label}

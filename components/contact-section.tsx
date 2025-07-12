@@ -122,7 +122,7 @@ export default function ContactSection() {
                     {[
                       { icon: Github, href: "https://github.com/rei-kaizen", label: "GitHub" },
                       { icon: Linkedin, href: "https://www.linkedin.com/in/denierosebon/", label: "LinkedIn" },
-                      { icon: FileText, href: "#", label: "Resume" },
+                      { icon: FileText, href: "https://drive.google.com/drive/folders/1ye5mwEvu2YYTGkYIdujB_3MDzwFzvjVe?usp=sharing", label: "Resume" },
                     ].map((social) => (
                       <motion.a
                         key={social.label}

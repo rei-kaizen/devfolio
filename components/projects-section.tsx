@@ -10,13 +10,13 @@ const projects = [
     description:
       "A comprehensive platform for creating and managing login and registration forms with real-time data validation and analytics.",
     tech: ["HTML5", "CSS3", "PHP", "JavaScript", "MySQL"],
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/smartforms.png",
     github: "https://github.com/rei-kaizen/smartforms-ph",
     demo: "#",
     gradient: "from-blue-500 to-cyan-500",
   },
   {
-    title: " Food Hub Web and Mobile App",
+    title: " Food Delivery & Catering App",
     description:
       "A scalable web and mobile application for managing food delivery and catering services.",
     tech: ["Next.js 14", "TypeScript", "Tailwind CSS", "Java", "Supabase", "Capacitor", "Gradle", "Android Studio"],
@@ -38,7 +38,7 @@ const projects = [
   {
     title: "Advanced Calculator Tool",
     description:
-      "A feature-rich calculator supporting scientific functions, memory operations, and keyboard input for advanced usage.",
+      "A feature-rich calculator supporting basic, scientific functions, programming operations, and keyboard input for advanced usage.",
     tech: ["Javascript", "Express", "JWT", "Docker", "Nginx"],
     image: "/calc.png",
     github: "https://github.com/rei-kaizen/advanced-calculator-app",
@@ -48,9 +48,9 @@ const projects = [
   {
     title: "PUP Hymn Player App",
     description:
-      "A web-based application for playing and managing hymns for the Polytechnic University of the Philippines community.",
+      "A web and mobile application for playing and managing hymns for the Polytechnic University of the Philippines community.",
     tech: ["HTML5", "CSS3", "JavaScript", "Java", "Gradle", "Android Studio"],
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/hymn.png",
     github: "https://github.com/rei-kaizen/pup-hymn-player",
     demo: "#",
     gradient: "from-indigo-500 to-purple-500",
@@ -60,7 +60,7 @@ const projects = [
     description:
       "A website developed using Flask, designed to highlight my journey as a computer engineering student.",
     tech: ["HTML5", "CSS3", "Flask", "Python"],
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/web.png",
     github: "https://github.com/rei-kaizen/web-profile",
     demo: "#",
     gradient: "from-yellow-500 to-orange-500",

@@ -21,7 +21,7 @@ export default function AboutSection() {
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-purple-400 mx-auto rounded-full" />
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -51,13 +51,19 @@ export default function AboutSection() {
             </div>
 
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-cyan-500/25"
+              <a
+                href="https://drive.google.com/drive/folders/1ye5mwEvu2YYTGkYIdujB_3MDzwFzvjVe?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <Download className="mr-2 h-5 w-5" />
-                Download Resume
-              </Button>
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-cyan-500/25"
+                >
+                  <Download className="mr-2 h-5 w-5" />
+                  Download Resume
+                </Button>
+              </a>
             </motion.div>
           </motion.div>
 
