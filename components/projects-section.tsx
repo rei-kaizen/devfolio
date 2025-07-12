@@ -16,7 +16,7 @@ const projects = [
     gradient: "from-blue-500 to-cyan-500",
   },
   {
-    title: " Food Delivery & Catering App",
+    title: "Food Delivery & Catering App",
     description:
       "A scalable web and mobile application for managing food delivery and catering services.",
     tech: ["Next.js 14", "TypeScript", "Tailwind CSS", "Java", "Supabase", "Capacitor", "Gradle", "Android Studio"],
