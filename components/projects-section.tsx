@@ -12,7 +12,7 @@ const projects = [
     tech: ["HTML5", "CSS3", "PHP", "JavaScript", "MySQL"],
     image: "/smartforms.png",
     github: "https://github.com/rei-kaizen/smartforms-ph",
-    demo: "#",
+    demo: "https://github.com/rei-kaizen/smartforms-ph",
     gradient: "from-blue-500 to-cyan-500",
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     tech: ["Next.js 14", "TypeScript", "Tailwind CSS", "Java", "Supabase", "Capacitor", "Gradle", "Android Studio"],
     image: "/cfh.png",
     github: "https://github.com/rei-kaizen/foodhub-web-mobile",
-    demo: "#",
+    demo: "https://github.com/rei-kaizen/foodhub-web-mobile",
     gradient: "from-purple-500 to-pink-500",
   },
   {
@@ -32,17 +32,17 @@ const projects = [
     tech: ["HTML5", "CSS3", "JavaScript"],
     image: "/kiosk.png",
     github: "https://github.com/rei-kaizen/pup-kiosk",
-    demo: "#",
+    demo: "https://github.com/rei-kaizen/pup-kiosk",
     gradient: "from-green-500 to-teal-500",
   },
   {
     title: "Advanced Calculator Tool",
     description:
-      "A feature-rich calculator supporting basic, scientific functions, programming operations, and keyboard input for advanced usage.",
+      "An advanced calculator featuring standard, scientific, and programming modes with keyboard input. Ideal for solving complex expressions and enhancing productivity in technical workflows.",
     tech: ["Javascript", "Express", "JWT", "Docker", "Nginx"],
     image: "/calc.png",
     github: "https://github.com/rei-kaizen/advanced-calculator-app",
-    demo: "#",
+    demo: "https://github.com/rei-kaizen/advanced-calculator-app",
     gradient: "from-orange-500 to-red-500",
   },
   {
@@ -52,17 +52,17 @@ const projects = [
     tech: ["HTML5", "CSS3", "JavaScript", "Java", "Gradle", "Android Studio"],
     image: "/hymn.png",
     github: "https://github.com/rei-kaizen/pup-hymn-player",
-    demo: "#",
+    demo: "https://github.com/rei-kaizen/pup-hymn-player",
     gradient: "from-indigo-500 to-purple-500",
   },
   {
-    title: "Web Profile",
+    title: "AlgoLab Space",
     description:
-      "A website developed using Flask, designed to highlight my journey as a computer engineering student.",
+      "A Flask-based web portfolio showcasing my Data Structures and Algorithms (DSA) projects. It is a interactive platform where users can explore and test a variety of algorithms I’ve built.",
     tech: ["HTML5", "CSS3", "Flask", "Python"],
     image: "/web.png",
-    github: "https://github.com/rei-kaizen/web-profile",
-    demo: "#",
+    github: "https://github.com/rei-kaizen/AlgoLab-Space",
+    demo: "https://github.com/rei-kaizen/AlgoLab-Space",
     gradient: "from-yellow-500 to-orange-500",
   },
 ]
