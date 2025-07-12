@@ -20,7 +20,7 @@ const projects = [
     description:
       "A scalable web and mobile application for managing food delivery and catering services.",
     tech: ["Next.js 14", "TypeScript", "Tailwind CSS", "Java", "Supabase", "Capacitor", "Gradle", "Android Studio"],
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/cfh.png",
     github: "https://github.com/rei-kaizen/foodhub-web-mobile",
     demo: "#",
     gradient: "from-purple-500 to-pink-500",
@@ -30,7 +30,7 @@ const projects = [
     description:
       "An interactive kiosk system for the Polytechnic University of the Philippines that provides campus navigation and location-based information.",
     tech: ["HTML5", "CSS3", "JavaScript"],
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/kiosk.png",
     github: "https://github.com/rei-kaizen/pup-kiosk",
     demo: "#",
     gradient: "from-green-500 to-teal-500",
@@ -40,7 +40,7 @@ const projects = [
     description:
       "A feature-rich calculator supporting scientific functions, memory operations, and keyboard input for advanced usage.",
     tech: ["Javascript", "Express", "JWT", "Docker", "Nginx"],
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/calc.png",
     github: "https://github.com/rei-kaizen/advanced-calculator-app",
     demo: "#",
     gradient: "from-orange-500 to-red-500",
