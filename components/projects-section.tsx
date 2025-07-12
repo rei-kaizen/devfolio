@@ -62,7 +62,7 @@ const projects = [
     tech: ["HTML5", "CSS3", "Flask", "Python"],
     image: "/web.png",
     github: "https://github.com/rei-kaizen/AlgoLab-Space",
-    demo: "https://github.com/rei-kaizen/AlgoLab-Space",
+    demo: "https://algolab-space.onrender.com/",
     gradient: "from-yellow-500 to-orange-500",
   },
 ]
