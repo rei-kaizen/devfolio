@@ -16,12 +16,15 @@ export default function Home() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
 
   useEffect(() => {
-    const updateMousePosition = (e: MouseEvent) => {
-      setMousePosition({ x: e.clientX, y: e.clientY })
-    }
+    // Guard against SSR: only run on client
+    if (typeof window !== "undefined") {
+      const updateMousePosition = (e: MouseEvent) => {
+        setMousePosition({ x: e.clientX, y: e.clientY })
+      }
 
-    window.addEventListener("mousemove", updateMousePosition)
-    return () => window.removeEventListener("mousemove", updateMousePosition)
+      window.addEventListener("mousemove", updateMousePosition)
+      return () => window.removeEventListener("mousemove", updateMousePosition)
+    }
   }, [])
 
   return (
