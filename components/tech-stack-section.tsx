@@ -19,9 +19,9 @@ const techCategories = [
     items: [
       { name: "Next.js", color: "from-emerald-400 to-indigo-500" },       // modern + space glow
       { name: "Flask", color: "from-slate-500 to-indigo-700" },           // stealthy cosmic mist
-      { name: "React.js", color: "from-indigo-500 to-blue-600" },         // magnetic waves
+      { name: "React", color: "from-indigo-500 to-blue-600" },         // magnetic waves
       { name: "Node.js", color: "from-lime-400 to-emerald-500" },         // vibrant tech beam
-      { name: "Express", color: "from-zinc-500 to-slate-700" },           // cosmic dust
+      { name: "Django", color: "from-zinc-500 to-slate-700" },           // cosmic dust
     ],
   },
   {
@@ -46,7 +46,7 @@ const techCategories = [
   {
     title: "Others",
     items: [
-      { name: "Firebase", color: "from-amber-300 to-orange-500" },        // ignition burst
+      { name: "ShadCN", color: "from-amber-300 to-orange-500" },        // ignition burst
       { name: "Supabase", color: "from-emerald-400 to-cyan-500" },        // sci-fi platform
       { name: "Arduino", color: "from-teal-400 to-blue-500" },            // electric ripple
       { name: "Figma", color: "from-pink-500 to-fuchsia-600" },           // UI nebula

@@ -4,13 +4,13 @@ import { motion } from "framer-motion"
 
 const skills = [
   { name: "System Architecture Design", level: 90 },
-  { name: "API Development & Integration", level: 80 },
+  { name: "API Development & Integration", level: 82 },
   { name: "IoT & Embedded Systems", level: 85 },
-  { name: "Web App Development", level: 92 },
+  { name: "Web App Development", level: 93 },
   { name: "Database Design & Optimization", level: 88 },
   { name: "Version Control (Git)", level: 96 },
   { name: "Automation Scripts", level: 87 },
-  { name: "Cloud Services", level: 82 },
+  { name: "Cloud Services", level: 80 },
 ]
 
 export default function SkillsSection() {

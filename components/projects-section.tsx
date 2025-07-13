@@ -12,7 +12,7 @@ const projects = [
     tech: ["HTML5", "CSS3", "PHP", "JavaScript", "MySQL"],
     image: "/smartforms.png",
     github: "https://github.com/rei-kaizen/smartforms-ph",
-    demo: "https://github.com/rei-kaizen/smartforms-ph",
+    demo: "https://smartforms-ph.vercel.app/",
     gradient: "from-blue-500 to-cyan-500",
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     tech: ["Next.js 14", "TypeScript", "Tailwind CSS", "Java", "Supabase", "Capacitor", "Gradle", "Android Studio"],
     image: "/cfh.png",
     github: "https://github.com/rei-kaizen/foodhub-web-mobile",
-    demo: "https://github.com/rei-kaizen/foodhub-web-mobile",
+    demo: "https://claydensfoodhub.vercel.app/",
     gradient: "from-purple-500 to-pink-500",
   },
   {
@@ -36,13 +36,13 @@ const projects = [
     gradient: "from-green-500 to-teal-500",
   },
   {
-    title: "Advanced Calculator Tool",
+    title: "Calculator Pro X",
     description:
-      "An advanced calculator featuring standard, scientific, and programming modes with keyboard input. Ideal for solving complex expressions and enhancing productivity in technical workflows.",
+      "A gamified calculator app with standard, scientific, and programming modes. Features a keyboard-first interaction, real-time computation, and achievement-based engagement.",
     tech: ["Javascript", "Express", "JWT", "Docker", "Nginx"],
-    image: "/calc.png",
+    image: "/calc-pro.png",
     github: "https://github.com/rei-kaizen/advanced-calculator-app",
-    demo: "https://github.com/rei-kaizen/advanced-calculator-app",
+    demo: "https://calc-pro-x.vercel.app/",
     gradient: "from-orange-500 to-red-500",
   },
   {
@@ -52,7 +52,7 @@ const projects = [
     tech: ["HTML5", "CSS3", "JavaScript", "Java", "Gradle", "Android Studio"],
     image: "/hymn.png",
     github: "https://github.com/rei-kaizen/pup-hymn-player",
-    demo: "https://github.com/rei-kaizen/pup-hymn-player",
+    demo: "https://pup-hymn-player.vercel.app/",
     gradient: "from-indigo-500 to-purple-500",
   },
   {

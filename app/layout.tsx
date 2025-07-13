@@ -13,7 +13,6 @@ export const metadata: Metadata = {
     "system developer, computer engineering, IoT, full-stack development, automation, tech enthusiast",
   authors: [{ name: "Denie Rose Bon" }],
   viewport: "width=device-width, initial-scale=1",
-  generator: "v0.dev",
   icons: {
     icon: "/tab-icon.png",
   },
