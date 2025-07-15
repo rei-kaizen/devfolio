@@ -13,11 +13,6 @@ A modern, responsive, and performance-optimized personal portfolio website built
 - 🌐 **Live Demo** – Deployed live on [Vercel](https://vercel.com/).
 - 🧾 **SEO-Friendly** – Meta tags and structure optimized for search engines.
 
-## 🖥️ Live Demo
-
-**Visit my live portfolio here:**  
-🔗 [https://denierosebon.vercel.app](https://denierosebon.vercel.app)
-
 ## 🙋‍♂️ About Me
 
 I'm **Denie Rose Bon**, a passionate system developer and tech enthusiast. This portfolio reflects my journey and growth in the tech industry.
